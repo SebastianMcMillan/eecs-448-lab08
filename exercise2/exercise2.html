@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script type="text/javascript" src="script.js">
+        </script>
+    </head>
+    <body>
+        
+        <div id="img1">
+            <img src="1.jpeg" width="400" height="300">
+        </div>
+        <div id="img2">
+            <img src="2.jpeg" width="400" height="300">
+        </div>
+        <div id="img3">
+            <img src="3.jpeg" width="400" height="300">
+        </div>
+        <div id="img4">
+            <img src="4.jpeg" width="400" height="300">
+        </div>
+        <div id="img5">
+            <img src="5.jpeg" width="400" height="300">
+        </div>
+        <script>
+            document.getElementById("img2").style.display = "none";
+            document.getElementById("img3").style.display = "none";
+            document.getElementById("img4").style.display = "none";
+            document.getElementById("img5").style.display = "none";
+        </script>
+        <br>
+        <button value="previous" onclick="previous()">Previous</button>
+        <button value="next" onclick="next()">Next</button>
+    </body>
+</html>

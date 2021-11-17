@@ -1,0 +1,34 @@
+body{
+    background-image: url(doma.png); 
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+p.title{
+    background-color: blue;
+    color: white;
+}
+
+p.bio{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+p{
+    color:white;
+}
+
+a:link{
+    color:yellow;
+}
+
+a:visited{
+    color:yellow;
+}
+
+p.bio:hover{
+    color:grey;
+}

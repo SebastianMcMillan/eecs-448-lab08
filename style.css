@@ -1,0 +1,27 @@
+a{
+    background-color: green;
+}
+
+a.cats:link{
+    color: orange;
+    background-color:black;
+}
+
+a.cats:visited{
+    color: orangered;
+    background-color: black;
+}
+
+a.cyan:link{
+    background-color: blue;;
+    color: yellow;
+}
+
+a.cyan:visited{
+    background-color: blue;
+    color: grey;
+}
+
+a.borders{
+    border: 5px purple dashed;
+}
